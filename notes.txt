@@ -1,0 +1,3 @@
+Todo:
+- Update Fluent Validation for all controllers and application activities.
+(Refrence - check details activities controller and application logic)
