@@ -1,3 +1,4 @@
+import { Activity } from "@/@types/activity";
 import customFetchBaseQuery from "@/store/api/customBaseQuery";
 import { createApi } from "@reduxjs/toolkit/query/react";
 
@@ -6,7 +7,7 @@ export const activitiesApi = createApi({
   reducerPath: "activitiesApi",
   tagTypes: ["Activity"],
   endpoints: (builder) => ({
-    getActivities: builder.query({
+    getActivities: builder.query<Activity[], undefined>({
       query: () => `/activities`,
       providesTags: ["Activity"],
     }),
