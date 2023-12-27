@@ -1,3 +1,51 @@
-Todo:
-- Update Fluent Validation for all controllers and application activities.
-(Refrence - check details activities controller and application logic)
+- Add Activitities Card frontend
+- Add Modal to view activity and buttons to edit.
+- If edit change the modal view to edit form
+- Have a cancel buttons
+
+
+- Use toolkit to keep track of selected activity and modal state
+- Complete CRUD for activities using rtk query
+- Create Activity Detail Page
+- Modal to create and manage activity should be the same but edit should populate the activity
+- Close modal on edit or create
+- After Create navigate to the detail page of new created activity
+
+-- Create HomePage
+
+---- End of Section 8 ----
+
+- Use 91 File - VLC for styling tips
+- Styling From Section 9
+- Create Group Activites by Date - Check Activity Store (store) for example
+- Use Reference for styling
+
+--- End of Section 9 ----
+
+
+# Section 10 
+(Error handling - Create a error object and take input as status, message and detail.
+Use the error object in RTK to handle errors
+)
+
+-- create client and server error handling // Use 108 - VLC
+-- Create toast for errors in client
+-- Use RTK for error handling and formatting the error and use toast to show the error 
+
+-- Create a Not Found Page // 404 Error Page
+-- Format 400 Error // Use 111 - VLC
+-- Create Server error page / 500 / Use 112 - VLC
+-- If guid is present and error then send to not found page
+
+--- End of Section 10 ----
+
+# Section 11 (React Hook Forms / zod) 
+-- Use React hook form to manage all forms  
+-- Use ISO string and date picker for managing dates with date fns
+
+--- End of Section 11 ---
+
+# Section 12 - API - Identity (Done)
+
+
+# Section 13 - Client (Auth)
